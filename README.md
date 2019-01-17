@@ -1,12 +1,10 @@
 # example-psa
 Single page application (SPA) is a web application that fits on a single page. All your code (JS, HTML, CSS) is retrieved with a single page load. And navigation between pages performed without refreshing the whole page.
 
-
 Pros
 No page refresh
 SPA feels like a native application: fast and responsive.
 Ability to work offline
-
 
 Cons
 More complex to build
