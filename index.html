@@ -1,0 +1,18 @@
+<!--First of all, we need to include angular script and app.js that we built.
+Then need to specify our module in ng-app attribute and controller in ng-controller attribute.-->
+<html ng-app="myApp">
+	<head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+        <!--We need to include angular-route script after the main angular script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+    </head>
+    <!--We need to specify the place where HTML of each page will be placed in our layout. There is a ng-view directive for that.-->
+    <body>
+        <a href="#/">Home</a>
+        <a href="#/blog">Blog</a>
+        <a href="#/about">About</a>
+        <!--This takes the file we specified for current route and injects it into the layout in the place of ng-view directive.-->
+        <div ng-view></div>
+        <script src="app.js"></script>
+    </body>
+</html>
