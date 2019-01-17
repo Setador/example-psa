@@ -1,2 +1,2 @@
 # example-psa
-Little example to lear how to create a simple page with Angular.
+Little example to learn how to create a simple page with Angular.
